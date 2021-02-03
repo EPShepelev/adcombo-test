@@ -18,8 +18,7 @@ body {
   font-family: "Roboto-Regular", "sans-serif";
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
-  color: $default-color;
+  color: $text-color;
 }
 
 h1,
@@ -52,24 +51,5 @@ a {
 }
 
 .container {
-  padding: 0 20px;
-}
-
-.title {
-  font-size: 24px;
-  line-height: 28px;
-  @extend %robotocondenced-400;
-  position: relative;
-  padding-bottom: 28px;
-  &::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 8px;
-    background-color: $accent;
-    bottom: 0;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-  }
+  padding: 0 15px;
 }
