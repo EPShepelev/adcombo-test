@@ -5,3 +5,24 @@
 @import "tablet-768.scss";
 @import "tablet-1024.scss";
 @import "tablet-1440.scss";
+
+.header {
+  &__inner {
+    margin-top: 11px;
+    margin-left: 32px;
+  }
+  &__menu-items,
+  &__menu-button {
+    display: none;
+  }
+  &__menu-logo,
+  &__menu-items,
+  &__menu-button {
+    float: left;
+  }
+  &__menu-logo {
+    background: url("../images/logo.svg");
+    width: 216px;
+    height: 63px;
+  }
+}
