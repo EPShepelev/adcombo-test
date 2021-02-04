@@ -31,6 +31,7 @@
   }
   &__title {
     padding: 5px;
+    margin-bottom: 40px;
     h2 {
       font-family: "Roboto-Bold";
       font-weight: 700;
@@ -40,4 +41,60 @@
       text-transform: uppercase;
     }
   }
+}
+
+.slider {
+  &__inner {
+    margin: 0 auto;
+    max-width: 176px;
+  }
+  &__items {
+    text-align: center;
+  }
+  &__inner-image {
+    margin-bottom: 20px;
+  }
+  &__inner-text {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.slick-dots li {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+}
+
+.slick-dots li + li {
+  margin-left: 16px;
+}
+
+.slick-dots li button::before {
+  width: 8px;
+  height: 8px;
+  content: "";
+  opacity: 1;
+  background-color: #e7ebf0;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button::before {
+  background-color: #a6abbd;
+}
+
+.slick-prev {
+  left: -10px;
+}
+
+.slick-next {
+  right: -15px;
 }
