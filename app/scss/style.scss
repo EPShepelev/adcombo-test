@@ -15,14 +15,16 @@
   &__menu-button {
     display: none;
   }
-  &__menu-logo,
-  &__menu-items,
-  &__menu-button {
-    float: left;
+  &__menu {
+    height: 60px;
+    margin-bottom: 65px;
   }
-  &__menu-logo {
-    background: url("../images/logo.svg");
-    width: 216px;
-    height: 63px;
+  &__img {
+    margin: 0 auto;
+    width: 218px;
+    height: 115px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 38px;
   }
 }
