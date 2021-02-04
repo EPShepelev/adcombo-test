@@ -8,8 +8,11 @@
 
 .header {
   &__inner {
-    margin-top: 11px;
-    margin-left: 32px;
+    // margin-top: 11px;
+    margin: 11px auto;
+  }
+  &__menu-logo {
+    margin-left: 42px;
   }
   &__menu-items,
   &__menu-button {
@@ -24,7 +27,17 @@
     width: 218px;
     height: 115px;
     text-align: center;
-    display: inline-block;
-    margin-bottom: 38px;
+    margin-bottom: 35px;
+  }
+  &__title {
+    padding: 5px;
+    h2 {
+      font-family: "Roboto-Bold";
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+    }
   }
 }
