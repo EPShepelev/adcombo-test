@@ -47,6 +47,7 @@
   &__inner {
     margin: 0 auto;
     max-width: 176px;
+    margin-bottom: 60px;
   }
   &__items {
     text-align: center;
@@ -61,6 +62,7 @@
     line-height: 19px;
     text-align: center;
     padding: 5px;
+    margin-bottom: 60px;
   }
 }
 
@@ -91,10 +93,14 @@
   background-color: #a6abbd;
 }
 
-.slick-prev {
-  left: -10px;
+.slick-arrow {
+  top: auto;
+  bottom: -15px;
 }
 
+.slick-prev {
+  left: 5px;
+}
 .slick-next {
-  right: -15px;
+  right: 5px;
 }
