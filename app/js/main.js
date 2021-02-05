@@ -8,4 +8,9 @@ $(function () {
     prevArrow:
       "<button type='button' class='slick-arrow slick-prev'><img src='../images/arrow-prev.svg' alt=''></button>",
   });
+
+  $(".accordeon__item-title").on("click", function () {
+    $(".accordeon__item").removeClass("accordeon__item-active");
+    $(this).parent().addClass("accordeon__item-active");
+  });
 });

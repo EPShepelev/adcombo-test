@@ -106,9 +106,38 @@
   right: 5px;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: transparent;
+}
+
 .accordeon {
   background-color: #f8fbff;
   &__title {
     padding-top: 60px;
+  }
+  &__item-title {
+    position: relative;
+    cursor: pointer;
+    &::after {
+      content: url("../images/arrow-down.svg");
+      position: absolute;
+      width: 19px;
+      height: 11px;
+      background-color: #fff;
+      top: 0;
+      right: 0;
+    }
+  }
+  &__item-text {
+    display: none;
+  }
+  &__item.accordeon__item-active {
+    .accordeon__item-title::after {
+      transform: rotate(180deg);
+    }
+    .accordeon__item-text {
+      display: block;
+    }
   }
 }
