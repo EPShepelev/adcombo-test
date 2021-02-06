@@ -39,6 +39,9 @@
       text-transform: uppercase;
     }
   }
+  &__items {
+    display: none;
+  }
 }
 
 .slider {
