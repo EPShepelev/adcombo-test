@@ -140,7 +140,8 @@
     padding-bottom: 10px;
   }
   &__items {
-    margin-top: 15px;
+    margin: 15px auto;
+    max-width: 300px;
   }
   &__item {
     margin-top: 5px;
@@ -201,6 +202,9 @@
 }
 
 .article {
+  &__item {
+    margin: 0 auto;
+  }
   &__title {
     padding-top: 60px;
     position: relative;
@@ -279,7 +283,8 @@
     padding: 5px 5px;
   }
   &__comments {
-    margin-top: 30px;
+    margin: 30px auto;
+    max-width: 288px;
   }
   &__comments-item {
     margin-bottom: 20px;
