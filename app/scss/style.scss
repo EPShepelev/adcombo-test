@@ -164,6 +164,7 @@
     padding: 5px 60px 5px 5px;
     position: relative;
     cursor: pointer;
+    border-bottom: 1px solid #e7ebf0;
     &::after {
       content: url("../images/arrow-down.svg");
       position: absolute;
@@ -190,9 +191,11 @@
     }
     .accordeon__item-text {
       display: block;
+      border-bottom: 1px solid #e7ebf0;
     }
     .accordeon__item-title {
       color: $accent;
+      border-bottom: none;
     }
   }
 }
