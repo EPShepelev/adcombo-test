@@ -5,38 +5,51 @@
   .header {
     background-color: #fff;
     &__inner {
-      margin: 0 auto;
+      padding: 30px 44px 23px 47px;
     }
     &__menu-logo {
       margin-left: 0;
+      display: inline-block;
+      img {
+        width: 220px;
+      }
+    }
+    &__menu-list {
+      a {
+        display: block;
+        padding: 4px 14px;
+      }
+      li {
+        display: inline-block;
+        margin-left: 8px;
+
+        color: $menu-color;
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $menu-color;
+        background-color: transparent;
+        :hover {
+          background-color: $accent;
+          box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.4);
+          border-radius: 8px;
+          color: #fff;
+        }
+      }
     }
     &__menu-items,
     &__menu-button {
       display: inline-block;
+      vertical-align: top;
+      margin-top: 35px;
+    }
+    &__menu-items {
+      margin-left: 10px;
     }
     &__menu {
-      height: 60px;
-      margin-bottom: 65px;
-      padding: 30px;
-    }
-    &__img {
-      margin: 0 auto;
-      width: 218px;
-      height: 115px;
-      text-align: center;
+      min-height: 60px;
       margin-bottom: 35px;
-    }
-    &__title {
-      padding: 5px;
-      margin-bottom: 40px;
-      h2 {
-        font-family: "Roboto-Bold";
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-        text-transform: uppercase;
-      }
     }
   }
 
