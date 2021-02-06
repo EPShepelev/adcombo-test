@@ -69,11 +69,16 @@
     }
   }
   .top {
+    min-height: 950px;
     background: linear-gradient(
       111.04deg,
       #e2e2e2 0.39%,
       rgba(255, 255, 255, 0) 86.46%
     );
+    background-image: url("../images/top-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
     &__title {
       padding-top: 50px;
       position: relative;
@@ -113,10 +118,15 @@
       width: 130px;
       margin: 0 50px;
     }
+    &__item-3 {
+      margin-right: 184px;
+    }
+    &__item-5 {
+      margin-left: 206px;
+    }
     &__item-3,
     &__item-5 {
-      margin: 0;
-      margin-left: 20px;
+      margin-top: 50px;
     }
   }
 
