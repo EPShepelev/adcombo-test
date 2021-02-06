@@ -1,13 +1,9 @@
 @import "vars.scss";
 @import "fonts.scss";
 @import "global.scss";
-@import "tablet-768.scss";
-@import "tablet-1024.scss";
-@import "tablet-1440.scss";
 
 .header {
   &__inner {
-    // margin-top: 11px;
     margin: 11px auto;
   }
   &__menu-logo {
@@ -321,3 +317,7 @@
     direction: rtl;
   }
 }
+
+@import "tablet-768.scss";
+@import "tablet-1024.scss";
+@import "tablet-1440.scss";
