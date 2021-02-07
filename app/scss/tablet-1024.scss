@@ -10,7 +10,10 @@
   }
 
   .top {
-    min-height: 770px;
+    min-height: 750px;
+    &__title {
+      margin-bottom: 20px;
+    }
     &__item {
       display: inline-block;
       width: 250px;
@@ -21,6 +24,24 @@
     }
     &__item-5 {
       margin-left: 180px;
+    }
+  }
+  .accordeon {
+    &__item-title,
+    &__item-text {
+      width: 500px;
+    }
+    &__item-title {
+      padding: 5px 60px 10px 5px;
+    }
+  }
+
+  .article {
+    &__item-text {
+      width: 600px;
+    }
+    &__comments-text {
+      width: 230px;
     }
   }
 }
