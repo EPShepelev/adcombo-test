@@ -220,7 +220,7 @@
       &::after {
         background-image: url("../images/green-quotes-right.svg");
         top: auto;
-        bottom: 0;
+        bottom: 15px;
         right: 100px;
         color: $accent;
       }
@@ -244,6 +244,10 @@
       display: inline-block;
       width: 380px;
       padding: 10px 16px 20px 16px;
+    }
+    &__item-author {
+      display: block;
+      margin-left: 200px;
     }
   }
 }
