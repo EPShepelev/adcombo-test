@@ -70,12 +70,8 @@
   }
   .top {
     min-height: 860px;
-    background: linear-gradient(
-      111.04deg,
-      #e2e2e2 0.39%,
-      rgba(255, 255, 255, 0) 86.46%
-    );
-    background-image: url("../images/top-image.png");
+    background-image: url("../images/top-image.png"),
+      linear-gradient(111.04deg, #e2e2e2 0.39%, rgba(255, 255, 255, 0) 86.46%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;

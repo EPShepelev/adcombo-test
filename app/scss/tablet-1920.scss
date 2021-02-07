@@ -1,0 +1,56 @@
+@import "vars.scss";
+@import "fonts.scss";
+
+@media (min-width: 1920px) {
+  .header {
+    &__menu-list {
+      margin-left: 100px;
+      margin-right: 800px;
+      li {
+        margin: 0 40px;
+      }
+    }
+  }
+
+  .top {
+    background-image: url("../images/buble-left.png"),
+      url("../images/buble-right.png"), url("../images/top-image.png"),
+      linear-gradient(111.04deg, #e2e2e2 0.39%, rgba(255, 255, 255, 0) 86.46%);
+    background-position: left bottom, right top, center center, center center;
+    background-repeat: no-repeat no-repeat no-repeat no-repeat;
+    background-size: auto;
+    &__title {
+      h2 {
+        font-size: 40px;
+        line-height: 47px;
+      }
+    }
+  }
+
+  .high-resolution__wrapper {
+    direction: rtl;
+    margin: 0 auto;
+  }
+  .accordeon,
+  .article {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .accordeon {
+    &__title {
+      h3 {
+        font-size: 40px;
+        line-height: 47px;
+      }
+    }
+  }
+  .article {
+    &__title {
+      h3 {
+        font-size: 40px;
+        line-height: 47px;
+      }
+    }
+  }
+}

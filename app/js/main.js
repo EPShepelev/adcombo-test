@@ -13,4 +13,18 @@ $(function () {
     $(".accordeon__item").removeClass("accordeon__item-active");
     $(this).parent().addClass("accordeon__item-active");
   });
+
+  function setEqualHeight(columns) {
+    let tallestcolumn = 0;
+    columns.each(function () {
+      currentHeight = $(this).height();
+      if (currentHeight > tallestcolumn) {
+        tallestcolumn = currentHeight;
+      }
+    });
+    columns.height(tallestcolumn);
+  }
+  $(document).ready(function () {
+    setEqualHeight($(".high-resolution__wrapper > section"));
+  });
 });
