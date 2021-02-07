@@ -2,4 +2,10 @@
 @import "fonts.scss";
 
 @media (min-width: 1024px) {
+  .header {
+    &__menu-list {
+      margin-left: 70px;
+      margin-right: 150px;
+    }
+  }
 }
