@@ -69,7 +69,7 @@
     }
   }
   .top {
-    min-height: 950px;
+    min-height: 860px;
     background: linear-gradient(
       111.04deg,
       #e2e2e2 0.39%,
@@ -108,6 +108,9 @@
     }
     &__item {
       display: inline-block;
+      p {
+        padding: 5px;
+      }
     }
     &__item-1,
     &__item-2,
