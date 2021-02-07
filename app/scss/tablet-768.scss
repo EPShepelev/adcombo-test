@@ -136,4 +136,62 @@
   .slider {
     display: none;
   }
+
+  .accordeon {
+    &__title {
+      position: relative;
+      h3 {
+        font-size: 30px;
+        line-height: 37px;
+      }
+    }
+    &__item-title {
+      position: relative;
+      &::after {
+        top: 4px;
+      }
+      &::before {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -8px;
+        left: -60px;
+      }
+    }
+    &__item-title.item-title-1 {
+      &::before {
+        content: url("../images/accordeon-1.svg");
+      }
+    }
+    &__item-title.item-title-2 {
+      &::before {
+        content: url("../images/accordeon-2.svg");
+      }
+    }
+    &__item-title.item-title-3 {
+      &::before {
+        content: url("../images/accordeon-3.svg");
+      }
+    }
+    &__item-title.item-title-4 {
+      &::before {
+        content: url("../images/accordeon-4.svg");
+      }
+    }
+    &__item-title.item-title-5 {
+      &::before {
+        content: url("../images/accordeon-5.svg");
+      }
+    }
+    &__items {
+      max-width: 400px;
+    }
+    &__item {
+      margin-top: 25px;
+    }
+    &__item-title,
+    &__item-text {
+      width: 380px;
+    }
+  }
 }
