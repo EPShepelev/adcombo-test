@@ -249,5 +249,17 @@
       display: block;
       margin-left: 200px;
     }
+    &__comments {
+      max-width: 600px;
+    }
+    &__comments-item {
+      display: inline-block;
+    }
+    &__comments-item:nth-child(odd) {
+      direction: rtl;
+    }
+    &__comments-item:nth-child(even) {
+      direction: ltr;
+    }
   }
 }
