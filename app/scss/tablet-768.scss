@@ -108,18 +108,11 @@
     }
     &__item {
       display: inline-block;
+      width: 130px;
+      margin: 0 50px;
       p {
         padding: 5px;
       }
-    }
-    &__item-1,
-    &__item-2,
-    &__item-3,
-    &__item-5,
-    &__item-6,
-    &__item-7 {
-      width: 130px;
-      margin: 0 50px;
     }
     &__item-3 {
       margin-right: 170px;
