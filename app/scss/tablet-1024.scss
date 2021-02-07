@@ -8,4 +8,19 @@
       margin-right: 150px;
     }
   }
+
+  .top {
+    min-height: 770px;
+    &__item {
+      display: inline-block;
+      width: 250px;
+      margin: 0 50px;
+    }
+    &__item-3 {
+      margin-right: 180px;
+    }
+    &__item-5 {
+      margin-left: 180px;
+    }
+  }
 }
