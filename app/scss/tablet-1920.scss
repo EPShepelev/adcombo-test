@@ -58,7 +58,7 @@
     &__inner {
       direction: initial;
     }
-    &&__item {
+    &__item {
       &::after {
         right: 38px;
       }
