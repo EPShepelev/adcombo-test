@@ -44,12 +44,23 @@
         line-height: 47px;
       }
     }
+    &__inner {
+      direction: initial;
+    }
   }
   .article {
     &__title {
       h3 {
         font-size: 40px;
         line-height: 47px;
+      }
+    }
+    &__inner {
+      direction: initial;
+    }
+    &&__item {
+      &::after {
+        right: 38px;
       }
     }
   }
