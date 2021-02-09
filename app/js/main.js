@@ -25,5 +25,5 @@ $(function () {
     columns.height(tallestcolumn);
   }
 
-  setEqualHeight($(".high-resolution__wrapper > section"));
+  // setEqualHeight($(".high-resolution__wrapper > section"));
 });
