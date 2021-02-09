@@ -50,9 +50,14 @@
   }
   .article {
     &__title {
+      padding-top: 0;
+      margin-bottom: 0;
       h3 {
         font-size: 40px;
         line-height: 47px;
+      }
+      &::before {
+        top: -11px;
       }
     }
     &__inner {

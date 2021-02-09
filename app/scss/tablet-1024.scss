@@ -37,8 +37,8 @@
   }
 
   .article {
-    &__item-text {
-      width: 600px;
+    &__item {
+      min-width: 600px;
     }
     &__comments-text {
       width: 230px;

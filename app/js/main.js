@@ -24,7 +24,6 @@ $(function () {
     });
     columns.height(tallestcolumn);
   }
-  $(document).ready(function () {
-    setEqualHeight($(".high-resolution__wrapper > section"));
-  });
+
+  setEqualHeight($(".high-resolution__wrapper > section"));
 });
